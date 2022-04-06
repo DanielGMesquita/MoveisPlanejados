@@ -1,0 +1,54 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    margin-bottom: 32px;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+p, #footer{
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+    font-weight:normal;
+}
+
+span,a{
+    color: #FF9900
+}
+
+#slogan{
+    margin:0 auto 72px; /*a primeira propriedade é a superior, segunda as laterais e terceira inferior*/
+    width: 592px;
+    height: 579px;
+}
+
+#slogan img{
+    margin-bottom: 32px;
+}
+
+hr{
+    width: 568px;
+    margin: 0 auto 8px;
+    border: 1px solid #ECEFF2;
+}
+
+
+#footer a + a{/*um a que anterior a ele tenha outro a*/
+    margin-left:28px
+}
+
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+}
